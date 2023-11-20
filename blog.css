@@ -56,6 +56,12 @@ header {
         color: hsl(353, 100%, 62%);
         font-weight: bold;
     }
+
+    & button:nth-child(2):hover {
+        background-color: hsl(355, 100%, 74%);
+        border: inherit;
+        color: #ffffff;
+    }
 }
 
 .moto {
@@ -92,6 +98,19 @@ header {
     & button:nth-child(2) {
         background-color: inherit;
         color: #ffffff;
+    }
+
+    & button:nth-child(1):hover {
+        background-color: hsl(355, 100%, 74%);
+        border: inherit;
+        color: #ffffff;
+    }
+
+    & button:nth-child(2):hover {
+        background-color: #ffffff;
+        border: inherit;
+        color: hsl(353, 100%, 62%);
+        transition: 0.5s ease-in-out;
     }
 }
 
